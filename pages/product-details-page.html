@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Product • Junk-trunk</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+
+<body>
+  <main class="main" role="main" id="main">
+    <script type="application/json" data-pattern="header/header"></script>
+
+    <div class="grid island-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 push">
+        <script type="application/json" data-pattern="cards/image-cards">
+          {
+            "img[src]": "../images/img-8.jpg"
+          }
+        </script>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
+        <h6 class="push-none text-center">VANILLA SWEATER</h6>
+        <p class="text-center bold">$32</p>
+        <div class="text-center">
+          <script type="application/json" data-pattern="sections/size-picker"></script>
+          <script type="application/json" data-pattern="sections/colour-picker"></script>
+          <script type="application/json" data-pattern="forms/number">
+            {
+              "label": "QUANTITY",
+              ".kilo[class]": "micro bold pad-top"
+            }
+          </script>
+          <div class="std-button push inline-block">
+            <a class="btn micro bold" href="#">ADD TO CART</a>
+          </div>
+          <div class="std-button push inline-block">
+            <a class="btn micro bold" href="checkout-form.html">CHECKOUT</a>
+          </div>
+        </div>
+        <script type="application/json" data-pattern="sections/reviews">
+          {
+            ".reviews[class]": "reviews push",
+            ".zero-star use[xlink:href]": "../images/icons.svg#full-review",
+            ".reviews .half-star use[xlink:href]": "../images/icons.svg#full-review"
+          }
+        </script>
+        <script type="application/json" data-pattern="sections/basic-section"></script>
+        <script type="application/json" data-pattern="sections/basic-section">
+          {
+            "h6": "FABRIC CARE",
+            "p": "Machine Wash cold. Tumble dry low"
+          }
+        </script>
+      </div>
+    </div>
+    <script type="application/json" data-pattern="sections/recommended-section">
+      {
+        "img[src]": "../images/img-3.jpg"
+      }
+    </script>
+  </main>
+  <script type="application/json" data-pattern="footer/main-footer"></script>
+</body>
+
+</html>

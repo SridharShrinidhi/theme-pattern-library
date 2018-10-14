@@ -1,0 +1,28 @@
+.btn {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.btn-light {
+  background-color: var(--color-accent-light);
+  border-color: var(--color-accent-light);
+
+  color: var(--color-primary);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-accent);
+
+  color: var(--color-primary);
+}
+
+.btn:hover {
+  border-color: var(--color-primary);
+  color: #fff;
+  background: linear-gradient(to left, black 50%, white 50%);
+  background-size: 200% 200%;
+  background-position: right top;
+  transition: all .3s ease-out;
+}

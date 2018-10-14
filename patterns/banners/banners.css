@@ -1,0 +1,70 @@
+html {
+  font-family: sans-serif;
+}
+
+.grey {
+  color: #a9a9a9;
+}
+
+hr {
+  border-top: 1px solid #000;
+}
+
+.banner-img {
+  max-width: 100vw;
+}
+
+.sale-banner {
+  background-color: var(--color-secondary);
+}
+
+.pop-up {
+  position: absolute;
+  top: -10em;
+}
+
+.pop-up-label {
+  cursor: pointer;
+}
+
+.pop-up:checked ~ .sale-banner {
+  display: none;
+}
+
+.pop-up:checked ~ .pop-up-label .close-icon {
+  display: none;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .text-s {
+    position: absolute;
+    top: 2em;
+    right: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .text-m {
+    position: absolute;
+    top: 2em;
+    right: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .text-l {
+    position: absolute;
+    top: 2em;
+    right: 0;
+  }
+
+}
+
+p {
+  font-family: var(--font-primary);
+}

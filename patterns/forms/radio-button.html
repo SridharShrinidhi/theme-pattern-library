@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Radio Buttons</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <form method="post" action="#" novalidate>
+
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <i class="icon 1-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">There are items that require your attention</span>
+      </h3>
+    </div>
+
+    <fieldset class="radio-btn push-quarter">
+      <legend class="kilo not-bold push-none">Radio Buttons</legend>
+      <input type="radio" name="option" id="option-1" aria-describedby="radio-error" checked>
+      <label class="inline-block radio-label-1 milli" for="option-1">Yes</label>
+      <input type="radio" name="option" id="option-2" aria-describedby="radio-error">
+      <label class="inline-block radio-label-2 milli" for="option-1">No</label>
+      <input type="radio" name="option" id="option-3" aria-describedby="radio-error">
+      <label class="inline-block radio-label-3 milli" for="option-1">Whatever</label>
+      <p class="error-message milli island-1-4 push-0" id="radio-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address</span>
+      </p>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

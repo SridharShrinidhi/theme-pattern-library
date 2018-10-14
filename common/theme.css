@@ -1,0 +1,66 @@
+:root {
+  --color-primary: #000;
+  --color-secondary: #f9ee41;
+  --color-accent: #ff5a5a;
+  --color-accent-light: #f9b8b8;
+  --font-primary: "Nunito Sans", sans-serif;
+  --font-secondary: "Maven Pro", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+ul,
+li,
+ol,
+dl,
+dd {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+}
+
+dt {
+  font-family: var(--font-secondary);
+}
+
+blockquote,
+b {
+  font-weight: bold;
+}
+
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}

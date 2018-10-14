@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Toggle Section</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../cards/cards.css" rel="stylesheet">
+  <link href="../cards/basic-cards.html" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+  <link href="sections.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="toggle-section relative">
+    <input type="checkbox" class="toggle-btn inline-block" id="toggle-btn-close">
+    <label class="toggle-btn-label inline-block pad-b" for="toggle-btn-close">Toggle section</label>
+    <div class="toggle-btn-open">
+      <form>
+        <div class="name1 push-1-2">
+          <label class="sa kilo" for="name1">Full Name</label>
+          <div class="name1 push-1-2">
+            <input class="milli" id="name1" required placeholder="Jane Smith">
+          </div>
+        </div>
+        <div class="address1 push-1-2">
+          <label for="address1">Address</label>
+          <input id="address1" required>
+        </div>
+        <div class="address2 push-1-2">
+          <label for="address2">Address</label>
+          <input id="address2" required>
+        </div>
+
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="name2 push-1-2">
+              <label class="sa kilo" for="name2">Full Name</label>
+              <div class="name2 push-1-2">
+                <input class="milli" id="name2" required placeholder="Jane Smith">
+              </div>
+            </div>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2">
+            <div class="drop-down-style">
+              <label for="drop-down">Drop Down List</label>
+              <select class="drop-down" name="text" id="drop-down" aria-describedby="drop-down-error">
+                <option>Option-1</option>
+                <option>Option-2</option>
+                <option>Option-3</option>
+                <option>Option-4</option>
+                <option>Option-5</option>
+                <option>Option-6</option>
+                <option>Option-7</option>
+              </select>
+              <p class="error-message milli" id="drop-down-error">
+                <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
+                <span class="icon-label">You can select only one option</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="zip-code push-1-2">
+          <label for="zip">ZIP Code</label>
+          <input type="text" id="zip" placeholder="K2K 3E4">
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+html {
+  font-family: sans-serif;
+}
+
+.error-message {
+  display: none;
+}
+
+.subscribe {
+  display: inline-block;
+}
+
+a svg:hover {
+  background-color: #fff;
+}
+
+.copyright {
+  display: block;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Checkout • Junk Trunk</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+
+<body>
+  <main class="main" role="main" id="main">
+    <script type="application/json" data-pattern="header/header">
+      {
+        ".current[class]": "tera text-center yellow",
+        ".cart[class]": "cart tera text-center yellow current"
+      }
+    </script>
+
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+        <h4 class="bold mega">RETURNING CUSTOMER</h4>
+        <script type="application/json" data-pattern="forms/email"></script>
+        <script type="application/json" data-pattern="forms/password"></script>
+        <div class="std-button left">
+          <a class="btn milli bold" href="#">Log in & Checkout</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+        <h4 class="bold mega">CHECKOUT AS GUEST</h4>
+        <script type="application/json" data-pattern="forms/email"></script>
+        <div class="std-button left">
+          <a class="btn milli bold" href="#">Checkout</a>
+        </div>
+        <p class="kilo gutter"> OR </p>
+        <div class="std-button left">
+          <a class="btn milli bold" href="#">Create an account</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="bold mega gutter pad-top push-none">CHECKOUT</h3>
+    <div class="grid">
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+        <h4 class="bold mega">Billing Address</h4>
+        <script type="application/json" data-pattern="forms/name"></script>
+        <script type="application/json" data-pattern="forms/address">
+          {
+            "label": "Address line 1"
+          }
+        </script>
+        <script type="application/json" data-pattern="forms/address">
+          {
+            "label": "Address line 2"
+          }
+        </script>
+        <div class="grid">
+
+          <div class="unit xs-1 s-1 m-1 l-1-2">
+            <script type="application/json" data-pattern="forms/name">
+              {
+                "label": "City",
+                "input[placeholder]": "Ottawa"
+              }
+            </script>
+
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-half">
+            <script type="application/json" data-pattern="forms/drop-down">
+              {
+                ".drop-down option:first-child": "Alberta",
+                ".drop-down option:nth-child(2)": "British Columbia",
+                ".drop-down option:nth-child(3)": "Manitoba",
+                ".drop-down option:nth-child(4)": "New Brunswick",
+                ".drop-down option:nth-child(5)": "New Foundland and Labrador",
+                ".drop-down option:last-child": "Nova Scotia",
+                ".drop-down-style label": "Province"
+              }
+            </script>
+          </div>
+        </div>
+        <script type="application/json" data-pattern="forms/zip-code"></script>
+        <h4 class="bold mega pad-top">Shipping Address</h4>
+        <script type="application/json" data-pattern="sections/toggle-section">
+          {
+            ".toggle-btn-label": "Same as billing address",
+            ".address-1 label": "Address line 1",
+            ".address-2 label": "Address line 2",
+            ".name2 label": "City",
+            ".name2 input[placeholder]": "Ottawa",
+            ".drop-down option:first-child": "Alberta",
+            ".drop-down option:nth-child(2)": "British Columbia",
+            ".drop-down option:nth-child(3)": "Manitoba",
+            ".drop-down option:nth-child(4)": "New Brunswick",
+            ".drop-down option:nth-child(5)": "New Foundland and Labrador",
+            ".drop-down option:last-child": "Nova Scotia",
+            ".drop-down-style label": "Province"
+          }
+        </script>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+        <h4 class="bold mega">Payment details</h4>
+        <script type="application/json" data-pattern="forms/radio-button">
+          {
+            ".radio-label-1": "AMEX",
+            ".radio-label-2": "VISA",
+            ".radio-label-3": "MASTERCARD"
+          }
+        </script>
+        <script type="application/json" data-pattern="forms/name">
+          {
+            "label": "Name on Card"
+          }
+        </script>
+        <script type="application/json" data-pattern="forms/number">
+          {
+            ".number label": "Card Number"
+          }
+        </script>
+
+        <div class="grid">
+
+          <div class="unit xs-1 s-1 m-1 l-1-2">
+            <script type="application/json" data-pattern="forms/date-picker">
+              {
+                ".date-picker label": "Expiry Date"
+              }
+            </script>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1-2">
+            <script type="application/json" data-pattern="forms/number">
+              {
+                ".number label": "CVV"
+              }
+            </script>
+          </div>
+
+        </div>
+        <h4 class="bold mega pad-top">Summary</h4>
+        <script type="application/json" data-pattern="sections/products"></script>
+        <script type="application/json" data-pattern="sections/products">
+          {
+            ".product-img img[src]": "../images/img-2.jpg",
+            ".products-cart p": "BLUE CHEESE SWEATER",
+            "cart-product-close[id]": "cart-product-close2",
+            "cart-product-close[for]": "cart-product-close2"
+          }
+        </script>
+        <div class="std-button pad-top-half">
+          <a class="btn kilo bold" href="#">Pay & Proceed</a>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <script type="application/json" data-pattern="footer/main-footer"></script>
+
+</body>
+
+</html>
