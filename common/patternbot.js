@@ -443,10 +443,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library
- * @version 117161252f0e3e4f148b9398e826c044f949e0d0
+ * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
+ * @version 7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e
  */
-const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
+const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -626,54 +626,59 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/common/grid.css",
+      "typografier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/common/type.css",
+      "modulifier": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/common/modules.css",
+      "theme": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/images/logo-256.svg",
-      "size64": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/images/logo-64.svg",
-      "size32": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/images/logo-32.svg",
-      "size16": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/images/logo-16.svg",
+      "sizeLarge": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/images/logo-256.svg",
+      "size64": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/images/logo-64.svg",
+      "size32": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/images/logo-32.svg",
+      "size16": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/buttons",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/header",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation",
-      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections"
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/buttons",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections"
     ],
     "pages": [
       {
+        "name": "beauty-home.html",
+        "namePretty": "Beauty home",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/beauty-home.html"
+      },
+      {
         "name": "checkout-form.html",
         "namePretty": "Checkout form",
-        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/pages/checkout-form.html"
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/checkout-form.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/home.html"
       },
       {
         "name": "product-details-page.html",
         "namePretty": "Product details page",
-        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/pages/product-details-page.html"
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/product-details-page.html"
       },
       {
         "name": "product-list-page.html",
         "namePretty": "Product list page",
-        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/pages/product-list-page.html"
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/product-list-page.html"
       }
     ],
     "js": []
@@ -682,13 +687,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "banners",
       "namePretty": "Banners",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners",
       "html": [
         {
           "name": "main-banners",
           "namePretty": "Main banners",
           "filename": "main-banners",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners/main-banners.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners/main-banners.html",
           "localPath": "patterns/banners/main-banners.html",
           "readme": {}
         },
@@ -696,7 +701,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "pop-up-banner",
           "namePretty": "Pop up banner",
           "filename": "pop-up-banner",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners/pop-up-banner.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners/pop-up-banner.html",
           "localPath": "patterns/banners/pop-up-banner.html",
           "readme": {}
         }
@@ -706,7 +711,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners/README.md",
           "localPath": "patterns/banners/README.md"
         }
       ],
@@ -715,7 +720,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "banners",
           "namePretty": "Banners",
           "filename": "banners",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/banners/banners.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
       ],
@@ -724,13 +729,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/buttons/buttons.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
@@ -739,7 +744,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -748,7 +753,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ],
@@ -757,13 +762,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards",
       "html": [
         {
           "name": "basic-cards",
           "namePretty": "Basic cards",
           "filename": "basic-cards",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards/basic-cards.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards/basic-cards.html",
           "localPath": "patterns/cards/basic-cards.html",
           "readme": {}
         },
@@ -771,7 +776,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "image-cards",
           "namePretty": "Image cards",
           "filename": "image-cards",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards/image-cards.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards/image-cards.html",
           "localPath": "patterns/cards/image-cards.html",
           "readme": {}
         }
@@ -781,7 +786,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -790,7 +795,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "cards",
           "namePretty": "Cards",
           "filename": "cards",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ],
@@ -799,13 +804,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer",
       "html": [
         {
           "name": "main-footer",
           "namePretty": "Main footer",
           "filename": "main-footer",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer/main-footer.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer/main-footer.html",
           "localPath": "patterns/footer/main-footer.html",
           "readme": {}
         },
@@ -813,7 +818,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "subscribe-footer",
           "namePretty": "Subscribe footer",
           "filename": "subscribe-footer",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer/subscribe-footer.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer/subscribe-footer.html",
           "localPath": "patterns/footer/subscribe-footer.html",
           "readme": {}
         }
@@ -823,7 +828,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -832,7 +837,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ],
@@ -841,13 +846,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms",
       "html": [
         {
           "name": "address",
           "namePretty": "Address",
           "filename": "address",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/address.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/address.html",
           "localPath": "patterns/forms/address.html",
           "readme": {}
         },
@@ -855,7 +860,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "checkbox",
           "namePretty": "Checkbox",
           "filename": "checkbox",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/checkbox.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/checkbox.html",
           "localPath": "patterns/forms/checkbox.html",
           "readme": {}
         },
@@ -863,7 +868,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "date-picker",
           "namePretty": "Date picker",
           "filename": "date-picker",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/date-picker.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/date-picker.html",
           "localPath": "patterns/forms/date-picker.html",
           "readme": {}
         },
@@ -871,7 +876,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "drop-down",
           "namePretty": "Drop down",
           "filename": "drop-down",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/drop-down.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/drop-down.html",
           "localPath": "patterns/forms/drop-down.html",
           "readme": {}
         },
@@ -879,7 +884,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "email",
           "namePretty": "Email",
           "filename": "email",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/email.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/email.html",
           "localPath": "patterns/forms/email.html",
           "readme": {}
         },
@@ -887,7 +892,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "name",
           "namePretty": "Name",
           "filename": "name",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/name.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/name.html",
           "localPath": "patterns/forms/name.html",
           "readme": {}
         },
@@ -895,7 +900,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "number",
           "namePretty": "Number",
           "filename": "number",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/number.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/number.html",
           "localPath": "patterns/forms/number.html",
           "readme": {}
         },
@@ -903,7 +908,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "password",
           "namePretty": "Password",
           "filename": "password",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/password.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/password.html",
           "localPath": "patterns/forms/password.html",
           "readme": {}
         },
@@ -911,7 +916,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "phone-number",
           "namePretty": "Phone number",
           "filename": "phone-number",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/phone-number.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/phone-number.html",
           "localPath": "patterns/forms/phone-number.html",
           "readme": {}
         },
@@ -919,7 +924,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "radio-button",
           "namePretty": "Radio button",
           "filename": "radio-button",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/radio-button.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/radio-button.html",
           "localPath": "patterns/forms/radio-button.html",
           "readme": {}
         },
@@ -927,7 +932,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "range",
           "namePretty": "Range",
           "filename": "range",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/range.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/range.html",
           "localPath": "patterns/forms/range.html",
           "readme": {}
         },
@@ -935,7 +940,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "zip-code",
           "namePretty": "Zip code",
           "filename": "zip-code",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/zip-code.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/zip-code.html",
           "localPath": "patterns/forms/zip-code.html",
           "readme": {}
         }
@@ -945,7 +950,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -954,7 +959,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "forms",
           "namePretty": "Forms",
           "filename": "forms",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ],
@@ -963,13 +968,20 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/header",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header",
       "html": [
+        {
+          "name": "header-beauty",
+          "namePretty": "Header beauty",
+          "filename": "header-beauty",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header/header-beauty.html",
+          "localPath": "patterns/header/header-beauty.html"
+        },
         {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/header/header.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header/header.html",
           "localPath": "patterns/header/header.html"
         }
       ],
@@ -978,7 +990,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/header/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header/README.md",
           "localPath": "patterns/header/README.md"
         }
       ],
@@ -987,7 +999,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/header/header.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header/header.css",
           "localPath": "patterns/header/header.css"
         }
       ],
@@ -996,13 +1008,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation",
       "html": [
         {
           "name": "filter",
           "namePretty": "Filter",
           "filename": "filter",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation/filter.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation/filter.html",
           "localPath": "patterns/navigation/filter.html",
           "readme": {}
         },
@@ -1010,7 +1022,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "footer-nav",
           "namePretty": "Footer nav",
           "filename": "footer-nav",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation/footer-nav.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation/footer-nav.html",
           "localPath": "patterns/navigation/footer-nav.html",
           "readme": {}
         }
@@ -1020,7 +1032,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -1029,7 +1041,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "navigation",
           "namePretty": "Navigation",
           "filename": "navigation",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ],
@@ -1038,13 +1050,13 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections",
       "html": [
         {
           "name": "basic-section",
           "namePretty": "Basic section",
           "filename": "basic-section",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/basic-section.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/basic-section.html",
           "localPath": "patterns/sections/basic-section.html",
           "readme": {}
         },
@@ -1052,7 +1064,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "collection",
           "namePretty": "Collection",
           "filename": "collection",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/collection.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/collection.html",
           "localPath": "patterns/sections/collection.html",
           "readme": {}
         },
@@ -1060,7 +1072,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "colour-picker",
           "namePretty": "Colour picker",
           "filename": "colour-picker",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/colour-picker.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/colour-picker.html",
           "localPath": "patterns/sections/colour-picker.html",
           "readme": {}
         },
@@ -1068,7 +1080,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "filter-section",
           "namePretty": "Filter section",
           "filename": "filter-section",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/filter-section.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/filter-section.html",
           "localPath": "patterns/sections/filter-section.html",
           "readme": {}
         },
@@ -1076,7 +1088,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "products",
           "namePretty": "Products",
           "filename": "products",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/products.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/products.html",
           "localPath": "patterns/sections/products.html",
           "readme": {}
         },
@@ -1084,7 +1096,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "recommended-section",
           "namePretty": "Recommended section",
           "filename": "recommended-section",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/recommended-section.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/recommended-section.html",
           "localPath": "patterns/sections/recommended-section.html",
           "readme": {}
         },
@@ -1092,7 +1104,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "reviews",
           "namePretty": "Reviews",
           "filename": "reviews",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/reviews.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/reviews.html",
           "localPath": "patterns/sections/reviews.html",
           "readme": {}
         },
@@ -1100,7 +1112,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "size-picker",
           "namePretty": "Size picker",
           "filename": "size-picker",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/size-picker.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/size-picker.html",
           "localPath": "patterns/sections/size-picker.html",
           "readme": {}
         },
@@ -1108,7 +1120,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "toggle-section",
           "namePretty": "Toggle section",
           "filename": "toggle-section",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/toggle-section.html",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/toggle-section.html",
           "localPath": "patterns/sections/toggle-section.html",
           "readme": {}
         }
@@ -1118,7 +1130,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/README.md",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/README.md",
           "localPath": "patterns/sections/README.md"
         }
       ],
@@ -1127,7 +1139,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/sections.css",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
       ],
@@ -1136,7 +1148,7 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/ecommerce-pattern-library/patterns/sections/sections.js",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/sections/sections.js",
           "localPath": "patterns/sections/sections.js"
         }
       ]
@@ -1162,5 +1174,5 @@ const patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0 = {
   }
 };
 
-patternBotIncludes(patternManifest_117161252f0e3e4f148b9398e826c044f949e0d0);
+patternBotIncludes(patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e);
 }());

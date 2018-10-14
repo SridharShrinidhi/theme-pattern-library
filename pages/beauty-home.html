@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Home • Sundar</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="banners/pop-up-banner">
+    {
+      ".sale-banner p": "FREE SHIPPING TILL OCT 20!"
+    }
+  </script>
+  <main class="main push" role="main" id="main">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <script type="application/json" data-pattern="header/header-beauty">
+          {
+            ".current[class]": "tera text-center yellow"
+          }
+        </script>
+      </div>
+    </div>
+    <script type="application/json" data-pattern="banners/main-banners"></script>
+    <div class="island">
+      <p class="mega bold">Products you love</p>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          <script type="application/json" data-pattern="cards/image-cards"></script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          <script type="application/json" data-pattern="cards/image-cards"></script>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div class="text-center pad-top-2">
+    <script type="application/json" data-pattern="footer/subscribe-footer"></script>
+  </div>
+  <script type="application/json" data-pattern="footer/main-footer"></script>
+
+</body>
+</html>
