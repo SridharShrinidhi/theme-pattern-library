@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version 7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e
+ * @version f6ca2b6ccc857f0bdd82980e862df3c721070ebd
  */
-const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
+const patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -690,6 +690,13 @@ const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners",
       "html": [
         {
+          "name": "basic-banner",
+          "namePretty": "Basic banner",
+          "filename": "basic-banner",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/banners/basic-banner.html",
+          "localPath": "patterns/banners/basic-banner.html"
+        },
+        {
           "name": "main-banners",
           "namePretty": "Main banners",
           "filename": "main-banners",
@@ -765,6 +772,13 @@ const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards",
       "html": [
         {
+          "name": "banner-card-sundar",
+          "namePretty": "Banner card sundar",
+          "filename": "banner-card-sundar",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/cards/banner-card-sundar.html",
+          "localPath": "patterns/cards/banner-card-sundar.html"
+        },
+        {
           "name": "basic-cards",
           "namePretty": "Basic cards",
           "filename": "basic-cards",
@@ -806,6 +820,13 @@ const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
       "namePretty": "Footer",
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer",
       "html": [
+        {
+          "name": "general-footer",
+          "namePretty": "General footer",
+          "filename": "general-footer",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/footer/general-footer.html",
+          "localPath": "patterns/footer/general-footer.html"
+        },
         {
           "name": "main-footer",
           "namePretty": "Main footer",
@@ -1174,5 +1195,5 @@ const patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e = {
   }
 };
 
-patternBotIncludes(patternManifest_7546bd53b2e31c3b15c7a76a1ff827f1af7c4c7e);
+patternBotIncludes(patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd);
 }());
