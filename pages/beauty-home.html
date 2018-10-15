@@ -29,8 +29,10 @@
     <div class="island-1-2">
       <script type="application/json" data-pattern="sections/recommended-section">
         {
-          "h6": "Products you love"
-          ".bold[class]": "bold giga"
+          "h6": "Products you love",
+          ".bold[class]": "bold giga",
+          ".img-1[src]": "../../images/beauty-img-2.jpg",
+          ".img-2[src]": "../../images/beauty-img-1.jpg"
         }
       </script>
     </div>
@@ -39,7 +41,13 @@
   <div class="text-center pad-top-2">
     <script type="application/json" data-pattern="footer/subscribe-footer"></script>
   </div>
-  <script type="application/json" data-pattern="footer/general-footer"></script>
+  <script type="application/json" data-pattern="footer/general-footer">
+      {
+        ".copyright p": "©sundar2018",
+        ".copyright a": "www.sundar.com",
+        ".footer-color[class]": "footer-color accent-colour"
+      }
+  </script>
 
 </body>
 </html>

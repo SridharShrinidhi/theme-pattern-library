@@ -64,3 +64,15 @@ i {
 mark {
   background-color: var(--color-secondary);
 }
+
+.accent-colour {
+  background-color: var(--color-accent);
+}
+
+.accent-colour {
+  background-color: var(--color-accent-light);
+}
+
+.secondary-colour {
+  background-color: var(--color-secondary);
+}
