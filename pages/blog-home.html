@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Home • Écrire</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <main class="main push" role="main" id="main">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <script type="application/json" data-pattern="header/blog-header">
+          {
+            ".current[class]": "tera text-center yellow"
+          }
+        </script>
+      </div>
+    </div>
+    <div class="island">
+      <script type="application/json" data-pattern="banners/basic-banner">
+      {
+        "img[src]": "../../images/blog-home-banner.jpg",
+        "p": "FASHION. FOOD. LIFESTYLE. TRAVEL",
+        "a": ""
+      }
+    </script>
+    </island>
+    <div class="island-1-2">
+      <script type="application/json" data-pattern="cards/banner-card-sundar">
+        {
+          "p": "",
+          "img[src]": "../../images/blog-img-1.jpg"
+        }
+      </script>
+    </div>
+    <div class="island-1-2">
+      <script type="application/json" data-pattern="cards/banner-card-sundar">
+        {
+          "p": "",
+          "img[src]": "../../images/blog-img-2.jpg"
+        }
+      </script>
+    </div>
+  </main>
+  <div class="text-center pad-top-2">
+    <script type="application/json" data-pattern="footer/subscribe-footer"></script>
+  </div>
+  <script type="application/json" data-pattern="footer/general-footer">
+    {
+      ".copyright p": "©écrire2018",
+      ".copyright a": "www.écrire.com"
+    }
+  </script>
+
+</body>
+</html>

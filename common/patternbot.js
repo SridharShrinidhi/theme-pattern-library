@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version f6ca2b6ccc857f0bdd82980e862df3c721070ebd
+ * @version b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b
  */
-const patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd = {
+const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -659,6 +659,11 @@ const patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd = {
         "name": "beauty-home.html",
         "namePretty": "Beauty home",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/beauty-home.html"
+      },
+      {
+        "name": "blog-home.html",
+        "namePretty": "Blog home",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/blog-home.html"
       },
       {
         "name": "checkout-form.html",
@@ -992,6 +997,13 @@ const patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header",
       "html": [
         {
+          "name": "blog-header",
+          "namePretty": "Blog header",
+          "filename": "blog-header",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/patterns/header/blog-header.html",
+          "localPath": "patterns/header/blog-header.html"
+        },
+        {
           "name": "header-beauty",
           "namePretty": "Header beauty",
           "filename": "header-beauty",
@@ -1195,5 +1207,5 @@ const patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd = {
   }
 };
 
-patternBotIncludes(patternManifest_f6ca2b6ccc857f0bdd82980e862df3c721070ebd);
+patternBotIncludes(patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b);
 }());
