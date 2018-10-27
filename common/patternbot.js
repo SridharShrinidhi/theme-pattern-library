@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version 488b2b07483a8146182dcf90480ab176833a1105
+ * @version 18955ac0a421e46fe72ec88983385f3f125ff003
  */
-const patternManifest_488b2b07483a8146182dcf90480ab176833a1105 = {
+const patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -684,6 +684,11 @@ const patternManifest_488b2b07483a8146182dcf90480ab176833a1105 = {
         "name": "product-list-page.html",
         "namePretty": "Product list page",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/product-list-page.html"
+      },
+      {
+        "name": "skincare.html",
+        "namePretty": "Skincare",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/skincare.html"
       }
     ],
     "js": []
@@ -1207,5 +1212,5 @@ const patternManifest_488b2b07483a8146182dcf90480ab176833a1105 = {
   }
 };
 
-patternBotIncludes(patternManifest_488b2b07483a8146182dcf90480ab176833a1105);
+patternBotIncludes(patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003);
 }());
