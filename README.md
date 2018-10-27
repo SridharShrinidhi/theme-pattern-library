@@ -1,5 +1,5 @@
 ---
-name: "Junk Trunk"
+name: "Far Out"
 fontUrl: "https://fonts.googleapis.com/css?family=Maven+Pro:700|Nunito+Sans:400,700"
 fonts:
   primary: |
@@ -22,8 +22,8 @@ colors:
 
 A theme designed for effective use by eclectic clothing and beauty brands to create an e-commerce website. The theme consists of three styles; fashion, beauty and blogging.
 
-Junk Trunk is a quirky clothing store for the foodies amongst us. Wear your favourite dish.
+**Junk Trunk** is a quirky clothing store for the foodies amongst us. Wear your favourite dish.
 
-Sundar is a beauty brand for affordable, beautiful skincare.
+**Sundar** is a beauty brand for affordable, beautiful skincare.
 
-Écrire is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding.
+**Écrire** is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding.

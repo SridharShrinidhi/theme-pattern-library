@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b
+ * @version 488b2b07483a8146182dcf90480ab176833a1105
  */
-const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
+const patternManifest_488b2b07483a8146182dcf90480ab176833a1105 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -595,7 +595,7 @@ const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
     },
     "readme": {
       "attributes": {
-        "name": "Junk Trunk",
+        "name": "Far Out",
         "fontUrl": "https://fonts.googleapis.com/css?family=Maven+Pro:700|Nunito+Sans:400,700",
         "backgroundColour": "#fff",
         "interfaceColours": {
@@ -603,8 +603,8 @@ const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
           "opposite": 255
         }
       },
-      "bodyRaw": "\nA theme designed for effective use by eclectic clothing and beauty brands to create an e-commerce website. The theme consists of three styles; fashion, beauty and blogging.\n\nJunk Trunk is a quirky clothing store for the foodies amongst us. Wear your favourite dish.\n\nSundar is a beauty brand for affordable, beautiful skincare.\n\nÉcrire is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding.\n",
-      "bodyBasic": "A theme designed for effective use by eclectic clothing and beauty brands to create an e-commerce website. The theme consists of three styles; fashion, beauty and blogging. Junk Trunk is a quirky clothing store for the foodies amongst us. Wear your favourite dish. Sundar is a beauty brand for affordable, beautiful skincare. Écrire is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding."
+      "bodyRaw": "\nA theme designed for effective use by eclectic clothing and beauty brands to create an e-commerce website. The theme consists of three styles; fashion, beauty and blogging.\n\n**Junk Trunk** is a quirky clothing store for the foodies amongst us. Wear your favourite dish.\n\n**Sundar** is a beauty brand for affordable, beautiful skincare.\n\n**Écrire** is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding.\n",
+      "bodyBasic": "A theme designed for effective use by eclectic clothing and beauty brands to create an e-commerce website. The theme consists of three styles; fashion, beauty and blogging. **Junk Trunk** is a quirky clothing store for the foodies amongst us. Wear your favourite dish. **Sundar** is a beauty brand for affordable, beautiful skincare. **Écrire** is a the apt theme for bloggers extraordinairé. It proves to be an effective communication and marketing tool, and can be used by brands in conjunction with their clothing/skincare e-commerce branding."
     },
     "icons": [
       "close",
@@ -671,9 +671,9 @@ const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/checkout-form.html"
       },
       {
-        "name": "home.html",
-        "namePretty": "Home",
-        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/home.html"
+        "name": "clothing-home.html",
+        "namePretty": "Clothing home",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/clothing-home.html"
       },
       {
         "name": "product-details-page.html",
@@ -1207,5 +1207,5 @@ const patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b = {
   }
 };
 
-patternBotIncludes(patternManifest_b1f4eab24a4e4f9cad9365a3758a9874aa3bba6b);
+patternBotIncludes(patternManifest_488b2b07483a8146182dcf90480ab176833a1105);
 }());
