@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version 1eca7348f87c88aaf6d91631fffead8d44c90f45
+ * @version 6c2bfd3ec7d21ad4f0bfa7874c31d862175d0a89
  */
-const patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45 = {
+const patternManifest_6c2bfd3ec7d21ad4f0bfa7874c31d862175d0a89 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -669,6 +669,11 @@ const patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45 = {
         "name": "blog-home.html",
         "namePretty": "Blog home",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/blog-home.html"
+      },
+      {
+        "name": "blog-list-page.html",
+        "namePretty": "Blog list page",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/blog-list-page.html"
       },
       {
         "name": "checkout-form.html",
@@ -1222,5 +1227,5 @@ const patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45 = {
   }
 };
 
-patternBotIncludes(patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45);
+patternBotIncludes(patternManifest_6c2bfd3ec7d21ad4f0bfa7874c31d862175d0a89);
 }());
