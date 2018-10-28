@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Home • Sundar</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="banners/pop-up-banner">
+    {
+      ".sale-banner p": "FREE SHIPPING TILL OCT 20!"
+    }
+  </script>
+  <main class="main push" role="main" id="main">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <script type="application/json" data-pattern="header/header-beauty">
+          {
+            ".current[class]": "tera text-center yellow"
+          }
+        </script>
+      </div>
+    </div>
+    <div class="grid island-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 push">
+        <script type="application/json" data-pattern="cards/image-cards">
+          {
+            "img[src]": "../images/sc-9.jpg"
+          }
+        </script>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 text-center">
+        <h6 class="push-none text-center">ARGAN OIL</h6>
+        <p class="text-center bold">$48</p>
+        <script type="application/json" data-pattern="forms/number">
+          {
+            "label": "Quantity"
+          }
+        </script>
+        <div>
+          <a class="btn milli bold push" href="#">ADD TO CART</a>
+        </div>
+
+      <script type="application/json" data-pattern="sections/basic-section">
+        {
+          "p": "100% pure, 100% organic, 100% natural Argan Oil."
+        }
+      </script>
+      <script type="application/json" data-pattern="sections/reviews">
+        {
+          ".zero-star use[xlink:href]": "../images/icons.svg#full-review",
+          ".half-star use[xlink:href]": "../images/icons.svg#full-review",
+          ".half-star use[xlink:href]": "../images/icons.svg#full-review"
+
+        }
+      </script>
+        </div>
+      </div>
+      <script type="application/json" data-pattern="sections/recommended-section">
+        {
+          ".img-1[src]": "../../images/sc-11.jpg",
+          ".img-2[src]": "../../images/sc-12.jpg"
+        }
+      </script>
+  </main>
+  <div class="text-center pad-top-2">
+    <script type="application/json" data-pattern="footer/subscribe-footer"></script>
+  </div>
+  <script type="application/json" data-pattern="footer/general-footer">
+      {
+        ".copyright p": "©sundar2018",
+        ".copyright a": "www.sundar.com",
+        ".footer-color[class]": "footer-color accent-colour"
+      }
+  </script>
+
+</body>
+</html>

@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library
- * @version 18955ac0a421e46fe72ec88983385f3f125ff003
+ * @version 1eca7348f87c88aaf6d91631fffead8d44c90f45
  */
-const patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003 = {
+const patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -661,6 +661,11 @@ const patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003 = {
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/beauty-home.html"
       },
       {
+        "name": "blog-article-page.html",
+        "namePretty": "Blog article page",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/blog-article-page.html"
+      },
+      {
         "name": "blog-home.html",
         "namePretty": "Blog home",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/blog-home.html"
@@ -684,6 +689,11 @@ const patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003 = {
         "name": "product-list-page.html",
         "namePretty": "Product list page",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/product-list-page.html"
+      },
+      {
+        "name": "skincare-product-details.html",
+        "namePretty": "Skincare product details",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 5/GRAPHIC DESIGN 5/pattern-library/theme-pattern-library/pages/skincare-product-details.html"
       },
       {
         "name": "skincare.html",
@@ -1212,5 +1222,5 @@ const patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003 = {
   }
 };
 
-patternBotIncludes(patternManifest_18955ac0a421e46fe72ec88983385f3f125ff003);
+patternBotIncludes(patternManifest_1eca7348f87c88aaf6d91631fffead8d44c90f45);
 }());
